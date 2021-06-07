@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Profitez de vos jeux.",
+    "subTitle": "Regardez sur les téléviseurs intelligents, PlayStation, Xbox, Chromecast, Apple TV, lecteurs Blu-ray et plus encore.",
+    "image": "/images/misc/intro.jpg",
+    "alt": "Tiger King on Netflix",
+    "direction": "row"
+  },
+  {
+    "id": 2,
+    "title": "Notez, commentez et débattez sur vos jeux préférés",
+    "subTitle": "Enregistrez vos jeux dans vos bibliothèques, regardez les bibliothèques d'autres personnes et regardez tous vos favoris hors ligne.",
+    "image": "/images/misc/note.jpg",
+    "alt": "Watch on mobile",
+    "direction": "row-reverse"
+  },
+  {
+    "id": 3,
+    "title": "Regardez partout.",
+    "subTitle": "Ajouter des jeux en illimité sur votre téléphone, tablette, ordinateur portable sans payer plus.",
+    "image": "/images/misc/outerworld5.jpg",
+    "alt": "Money Heist on Netflix",
+    "direction": "row"
+  }
+]
