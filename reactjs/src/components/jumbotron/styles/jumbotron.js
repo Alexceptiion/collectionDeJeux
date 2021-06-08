@@ -53,7 +53,7 @@ export const Item = styled.div`
   display: flex;
   border-bottom: 8px solid #fe5700;
   padding: 50px 5%;
-  color: black;
+  color: white;
   overflow: hidden;
 `;
 
