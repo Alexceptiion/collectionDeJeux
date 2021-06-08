@@ -1,5 +1,6 @@
 import React from "react";
 import { Accordion } from "../components";
+import OptForm from "../components/opt-form";
 import faqsData from "../fixtures/faqs.json";
 
 export function FaqsContainer() {
@@ -13,6 +14,17 @@ export function FaqsContainer() {
         </Accordion.Item>
       ))}
       <Accordion.Item></Accordion.Item>
+
+      <OptForm>
+        <OptForm.Input placeholder="Email" />
+        <OptForm.Input placeholder="Pseudo" />
+        <OptForm.Input placeholder="Mot de passe" />
+        <OptForm.Button>S'inscrire Maintenant</OptForm.Button>
+        <OptForm.Break />
+        <OptForm.Text>
+          Prêt à démarrer? Entrez les informations pour créer votre compte.
+        </OptForm.Text>
+      </OptForm>
     </Accordion>
   );
 }
