@@ -33,6 +33,17 @@ font-size: 26px;
 border: 0;
 cursor: pointer; 
 
+&:hover {
+    background: green;
+}
+
+@media (max-width: 1000px) {
+    height: 50px;
+    font-size: 16px
+    margin-top: 20px;
+    font-weight: bold;
+}
+
 img {
     margin-left: 10px;
     filter: brightness(0) invert(1);
