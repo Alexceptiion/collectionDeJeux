@@ -3,7 +3,7 @@ import styled from "styled-components/macro";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  border-bottom: 8px solid #fe5700; 
+  border-bottom: 8px solid #fe5700;
   text-align: center;
   padding: 45px 45px;
 `;
