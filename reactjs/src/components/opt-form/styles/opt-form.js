@@ -55,6 +55,18 @@ img {
 }
 `;
 
-export const Text = styled.p``;
+export const Text = styled.p`
+  font-size: 19.2px;
+  color: white;
+  text-align: center;
 
-export const Break = styled.div``;
+  @media (max-width: 600px) {
+    font-size: 16px;
+    line-height: 22px;
+  }
+`;
+
+export const Break = styled.div`
+  flex-basis: 100%;
+  height: 0;
+`;

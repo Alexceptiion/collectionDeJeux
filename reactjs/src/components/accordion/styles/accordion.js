@@ -1,4 +1,4 @@
-import styled from 'styled-components/macro';
+import styled from "styled-components/macro";
 
 export const Container = styled.div`
   display: flex;
@@ -22,8 +22,9 @@ export const Title = styled.h1`
   line-height: 1.1;
   margin-top: 0;
   margin-bottom: 8px;
-  color: black;
+  color: white;
   text-align: center;
+
   @media (max-width: 600px) {
     font-size: 35px;
   }
@@ -31,10 +32,11 @@ export const Title = styled.h1`
 
 export const Item = styled.div`
   color: white;
-  margin: auto;
   margin-bottom: 10px;
-  max-width: 728px;
+  margin: auto;
+  max-width: 670px;
   width: 100%;
+
   &:first-of-type {
     margin-top: 3em;
   }
@@ -54,6 +56,7 @@ export const Header = styled.div`
   padding: 0.8em 1.2em 0.8em 1.2em;
   user-select: none;
   align-items: center;
+
   img {
     filter: brightness(0) invert(1);
     width: 24px;
@@ -62,6 +65,7 @@ export const Header = styled.div`
       width: 16px;
     }
   }
+
   @media (max-width: 600px) {
     font-size: 16px;
   }
