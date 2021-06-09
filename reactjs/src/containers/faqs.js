@@ -14,17 +14,6 @@ export function FaqsContainer() {
         </Accordion.Item>
       ))}
       <Accordion.Item></Accordion.Item>
-
-      <OptForm>
-        <OptForm.Input placeholder="Email" />
-        <OptForm.Input placeholder="Pseudo" />
-        <OptForm.Input placeholder="Mot de passe" />
-        <OptForm.Button>S'inscrire Maintenant</OptForm.Button>
-        <OptForm.Break />
-        <OptForm.Text>
-          Prêt à démarrer? Entrez les informations pour créer votre compte.
-        </OptForm.Text>
-      </OptForm>
     </Accordion>
   );
 }

@@ -34,7 +34,7 @@ border: 0;
 cursor: pointer; 
 
 &:hover {
-    background: green;
+    background: #cb4500;
 }
 
 @media (max-width: 1000px) {
