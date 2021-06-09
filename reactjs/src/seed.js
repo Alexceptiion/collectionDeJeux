@@ -51,36 +51,39 @@ export function seedDatabase(firebase) {
     sortie: "11 juin 2021",
     genre: "Combat",
     maturity: "none",
-    slug: "super-size-me",
+    slug: "guilty gear -strive",
   });
-  firebase.firestore().collection("series").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Man on Wire",
+    title: "Pro Cycling Manager 2021",
     description:
       "Filmmaker James Marsh masterfully recreates high-wire daredevil Philippe Petit's 1974 stunt walking on a wire across the Twin Towers.",
-    genre: "documentaries",
-    maturity: "12",
-    slug: "man-on-wire",
+    sortie: "03 juin 2021",
+    genre: "Action|Course|Simulation|Sport",
+    maturity: "none",
+    slug: "pro cycling manager 2021",
   });
 
   // Comedies
-  firebase.firestore().collection("series").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "The Office",
+    title: "Biomutant",
     description:
-      "A motley group of office workers go through hilarious misadventures at the Scranton, Pennsylvania, branch of the Dunder Mifflin Paper Company.",
-    genre: "comedies",
-    maturity: "15",
-    slug: "the-office",
+      "Biomutant est un RPG open-world développé par Experiment 101, studio créé par des anciens de Just Cause, et édité par THQ Nordic. L'action se déroule dans un univers post-apocalyptique et est décrit comme 'une fable kung fu'. Le héros, qui ressemble vaguement à un certain Rocket Raccoon, peut alterner combat au corps à corps et combat à distance, piloter des véhicules, crafter de l'équipement et personnaliser ses capacités.",
+    sortie: "25 mai 2021",
+    genre: "RPG",
+    maturity: "none",
+    slug: "biomutant",
   });
-  firebase.firestore().collection("series").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Arrested Development",
+    title: "Sniper Ghost Warrior Contracts 2",
     description:
-      "The Bluth family, once a prominent name in the business, loses everything after the head patriarch gets convicted for fraud.",
-    genre: "comedies",
-    maturity: "15",
-    slug: "arrested-development",
+      "Dans ce nouvel opus de la série Sniper Ghost Warriors, les joueurs endossent le rôle de Reaper, un sniper à gage. L'action se déroule dans une partie du Moyen - Orient où le sniper devra s'infiltrer dans le territoire ennemi pour éliminer des cibles prioritaires.",
+    sortie: "04 juin 2021",
+    genre: "Action|FPS",
+    maturity: "18",
+    slug: "sniper ghost warrior contracts 2",
   });
   firebase.firestore().collection("series").add({
     id: getUUID(),
