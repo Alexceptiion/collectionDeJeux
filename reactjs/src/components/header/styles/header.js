@@ -1,12 +1,12 @@
-
 import styled from "styled-components/macro";
 import { Link as ReactRouterLink } from "react-router-dom";
 
 export const Background = styled.div`
-display: flex;
-flex-direction: column;
-background: url(${({ src }) => (src ? `../images/misc/${src}.jpg` :
-    '../images/misc/library.jpg')}) top left / cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  background: url(${({ src }) =>
+      src ? `../images/misc/${src}.jpg` : "../images/misc/library.jpg"})
+    top left / cover no-repeat;
 `;
 
 export const Frame = styled.div``;
@@ -29,14 +29,14 @@ a {
 `;
 
 export const Logo = styled.img`
-height: 250px;
-width: 308px;
-margin-right: 40px;
+  height: 250px;
+  width: 308px;
+  margin-right: 40px;
 
-@media (min-width: 1449px) {
-  height: 263px;
-  width: 357px;
-}
+  @media (min-width: 1449px) {
+    height: 263px;
+    width: 357px;
+  }
 `;
 
 export const ButtonLink = styled(ReactRouterLink)`
