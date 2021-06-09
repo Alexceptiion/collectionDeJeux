@@ -1,4 +1,4 @@
-import REACT from "react";
+import React from "react";
 import HeaderContainer from "../containers/header";
 import { FaqsContainer } from "../containers/faqs";
 import { FooterContainer } from "../containers/footer";

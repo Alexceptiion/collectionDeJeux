@@ -1,8 +1,8 @@
 import React from "react";
-import { Header } from "../components";
-import * as ROUTES from '../constants/routes';
+import { Header } from "./components";
+import * as ROUTES from './constants/routes';
 
-export default function HeaderContainer({ children }) {
+export  function HeaderContainer({ children }) {
   return (
     <Header>
       <Header.Frame>
