@@ -21,7 +21,12 @@
   },
   {
     "id": 5,
-    "header": "What can I watch on Netflix?",
-    "body": "Netflix has an extensive library of feature films, documentaries, TV programmes, anime, award-winning Netflix originals, and more. Watch as much as you want, any time you want."
+    "header": "Peut-on créer la fiche d'une œuvre absente de la base de données ?",
+    "body": "La contribution à la base de données est possible via notre wiki. Pour cela, il faut commencer par chercher l'œuvre dans le moteur de recherche afin d'être sûr que la fiche n'existe pas déjà et limiter ainsi la création de doublons. Si l'œuvre n'existe pas, vous trouverez un lien en bas de page menant vers notre wiki pour la créer Nous vous invitons à respecter nos règles éditoriales disponibles dans la documentation. Vous y trouverez également toutes les informations qu'il y a à connaître sur les données à renseigner lors de la création et modification d'une fiche. Si jamais vous n'êtes pas sûr de vous, n'hésitez pas à nous contacter."
+  },
+  {
+    "id": 6,
+    "header": "Comment faire pour trouver de nouveaux cavalier?",
+    "body": "À partir du menu utilisateur situé en haut à droite et accessible en survolant la petite flèche à droite de votre pseudo, vous pourrez accéder à la page qui permet de trouver de nouveaux éclaireurs. Il y a un délai d’une journée après avoir noté 200 œuvres pour pouvoir accéder aux suggestions. La page peut alors afficher le message suivant même si vous avez noté plus de 200 œuvres : Aucune suggestion pour l'instant. Vous devez avoir noté au moins 200 œuvres.."
   }
 ]
