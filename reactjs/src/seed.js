@@ -85,409 +85,452 @@ export function seedDatabase(firebase) {
     maturity: "18",
     slug: "sniper ghost warrior contracts 2",
   });
-  firebase.firestore().collection("series").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Curb Your Enthusiasm",
+    title: "Hokko Life",
     description:
-      "Larry David, a famous television writer and producer, gets into various misadventures with his friends and celebrity colleagues in Los Angeles.",
-    genre: "comedies",
-    maturity: "15",
-    slug: "curb-your-enthusiasm",
+      "Hokko Life est un jeu de simulation de vie sur PC. Il vous demande de reprendre un vieille atelier et de vous en servir pour faire preuve de créativité. Créé alors une ville à votre image, en construisant des bâtiments, du mobiliers et bien d'autres choses...",
+    sortie: "02 juin 2021",
+    genre: "Sandbox|Simulation de vie",
+    maturity: "none",
+    slug: "hokko life",
   });
-  firebase.firestore().collection("series").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Family Guy",
+    title: "Resident Evil Village",
     description:
-      "Peter Griffin and his family of two teenagers, a smart dog, a devilish baby and his wife find themselves in some of the most hilarious scenarios.",
-    genre: "comedies",
-    maturity: "15",
-    slug: "family-guy",
+      "Resident Evil Village est un survival-horror. Se déroulant quelques années après Resident Evil 7 Biohazard, il met en scène Ethan Winters, sa femme Mia et Chris Redfield, le héros légendaire de la série Resident Evil. L'action est en vue à la première personne et le joueur incarne un Ethan désemparé et brisé qui se retrouve confronté à des monstruosités dans un village.",
+    sortie: "07 mai 2021",
+    genre: "Survival-Horror",
+    maturity: "18",
+    slug: "resident evil village",
   });
-  firebase.firestore().collection("series").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "South Park",
+    title: "Necromunda: Hired Gun",
     description:
-      "Four young, schoolgoing boys, Stan Marsh, Kyle Broflovski, Eric Cartman and Kenny McCormick, who live in South Park set out on various adventures.",
-    genre: "comedies",
-    maturity: "15",
-    slug: "south-park",
+      "Au cœur de l'un des mondes les plus sordides de Warhammer 40 000, Necromunda, ce FPS violent et survolté vous invite à devenir le Hired Gun, un chasseur de primes sans pitié, accompagné de son cyber-chien. Proposant un gameplay dynamique, Necromunda : Hired Gun vous permet de personnaliser votre équipement, vos capacités, ainsi que votre compagnon canin. Plusieurs contrats sont à remplir et de nombreuses cibles sont à éliminer pour empochez vos récompenses.",
+    sortie: "01 juin 2021",
+    genre: "Action|FPS",
+    maturity: "18",
+    slug: "necromunda: hired gun",
   });
 
   // Children
-  firebase.firestore().collection("series").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Peppa Pig",
+    title: "We are Football",
     description:
-      "Peppa, an outgoing preschool pig, participates in many energetic activities. She learns something new every day and has a lot of fun with her family and friends.",
-    genre: "children",
+      "WE ARE FOOTBALL est un jeu de gestion dans lequel vous devez mener votre club de football au sommet du championnat. Vous débutez donc comme manager pour d'une petite équipe locale masculine ou féminine et devez la mener vers la reconnaissance internationale.",
+    sortie: "10 juin 2021",
+    genre: "Gestion|Sport",
     maturity: "0",
-    slug: "peppa-pig",
+    slug: "we are football",
   });
-  firebase.firestore().collection("series").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Dora The Explorer",
+    title: "F1 2021",
     description:
-      "Dora, a seven-year-old girl of Latin American descent, embarks upon numerous adventures in the wilderness with her friend Boots, a monkey, and a variety of fun and useful tools.",
-    genre: "children",
+      "F1 2021 est le jeu officiel du 2021 FIA FORMULA ONE WORLD CHAMPIONSHIP™. Le soft comporte une histoire inédite, 'Point de rupture', deux nouveaux modes de jeu dont un mode Carrière jouable à 2 joueurs, ainsi que d'autres ajouts mineurs. Les circuits, voitures et pilote sont mis à jour comme chaque année, et il est possible d'affronter d'autres joueurs dans des courses en ligne classées.",
+    sortie: "16 juil. 2021",
+    genre: "course",
     maturity: "0",
-    slug: "dora-the-explorer",
+    slug: "f1 2021",
   });
-  firebase.firestore().collection("series").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "PAW Patrol",
+    title: "Outriders",
     description:
       "Six brave puppies, captained by a tech-savvy ten-year-old boy, Ryder, work together to accomplish high-stakes rescue missions to safeguard the residents of the Adventure Bay community.",
-    genre: "children",
+    sortie: "01 avr. 2021",
+    genre: "Action|TPS",
     maturity: "0",
-    slug: "paw-patrol",
+    slug: "outriders",
   });
-  firebase.firestore().collection("series").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Arthur",
+    title: "Nioh 2",
     description:
-      "Bespectacled aardvark Arthur Read demonstrates to kids how to deal with such childhood traumas and challenges as homework, teachers and bullies.",
-    genre: "children",
-    maturity: "0",
-    slug: "arthur",
+      "Nioh 2 est un action RPG développé par Team Ninja. L'aventure prend place durant la période Sengoku au Japon. Qu'ils soient des démons ou des humains, les obstacles se dressent au cours de l'aventure et il faudra user divers armes pour s'en défaire.",
+    sortie: "13 mars 2020",
+    genre: "Action|RPG|Action RPG",
+    maturity: "18",
+    slug: "nioh 2",
   });
-  firebase.firestore().collection("series").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "SpongeBob",
+    title: "MotoGP 21",
     description:
-      "A yellow sea sponge named SpongeBob SquarePants lives in the city of Bikini Bottom deep in the Pacific Ocean. ",
+      "MotoGP 21 est le nouvel épisode de la licence annuelle MotoGP de Milestone. Sous licence officielle, le jeu propose plus de 120 pilotes et pistes en plus qu'une quarantaine de pilotes historiques. Un mode carrière avec un aspect gestion et personnalisation ainsi qu'un mode multijoueur jusqu'à 22 participants est disponible. ",
+    sortie: "22 avr. 2021",
     genre: "children",
-    maturity: "0",
-    slug: "spongebob",
+    maturity: "3",
+    slug: "motoGP 21",
   });
 
   // Crime
-  firebase.firestore().collection("series").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Making a Murderer",
+    title: "NieR Replicant ver.1.22474487139",
     description:
-      "Exonerated after spending nearly two decades in prison for a crime he did not commit, Steven Avery filed suit against Manitowoc County, Wis., and several individuals involved with his arrest.",
-    genre: "crime",
+      "NieR Replicant ver.1.22474487139... est une version améliorée de l'action-RPG NieR, paru en 2010. Le jeu met en scène un jeune homme en quête d'un remède pour sa petite sœur malade. Développée par Toylogic, cette version propose entre autres un doublage intégral, des musiques réenregistrées et de nouvelles compositions signées Keiichi Okabe..",
+    sortie: "23 avr. 2021",
+    genre: "Action RPG",
     maturity: "18",
-    slug: "making-a-murderer",
+    slug: "nieR replicant ver.1.22474487139",
   });
-  firebase.firestore().collection("series").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Long Shot",
+    title: "SnowRunner",
     description:
-      "An innocent man is accused of murder, leading his attorney on a wild chase to confirm his alibi using raw footage from a television show.",
-    genre: "crime",
-    maturity: "18",
-    slug: "long-shot",
+      "SnowRunner est un jeu de conduite d'engins tout-terrain dans des conditions extrêmes. Vous pourrez y utiliser un des 40 véhicules personnalisables, pour prendre la route et accomplir des missions où le risque de se retrouver coincé est constant...",
+    sortie: "28 avr. 2020",
+    genre: "Course|Simulation",
+    maturity: "3",
+    slug: "snowrunner",
   });
-  firebase.firestore().collection("series").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "The Confession Killer",
+    title: "Ranch Simulator",
     description:
-      "Henry Lee Lucas was an American convicted serial killer whose crimes spanned from 1960 to 1983. He was convicted of murdering eleven people and condemned to death for the murder of Debra Jackson, although his sentence would be commuted to life in prison in 1998.",
-    genre: "crime",
-    maturity: "18",
-    slug: "the-confession-killer",
+      "Ranch Simulator est un jeu de simulation et de gestion dans lequel vous devez construire puis gérer votre propre ranch. Pour cela, il faut à la fois être capable de travailler comme fermier, marchand ou encore chasseur. Jusqu'à 4 joueur en coopération, vous pouvez donc reprendre le ranch de votre grand-père et en faire une fierté familiale qui saura prospérer.",
+    sortie: "04 mars 2021",
+    genre: "Gestion|Simulation",
+    maturity: "0",
+    slug: "ranch simulator",
   });
-  firebase.firestore().collection("series").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "The Innocent Man",
+    title: "Cartel Tycoon",
     description:
-      "Henry Lee Lucas was an American convicted serial killer whose crimes spanned from 1960 to 1983. He was convicted of murdering eleven people and condemned to death for the murder of Debra Jackson.",
-    genre: "crime",
-    maturity: "18",
-    slug: "the-innocent-man",
+      "Cartel Tycoon est un jeu de gestion en accès anticipé développé par Moon Moose et édité par tinyBuild. Le jeu prend dans une Amérique Latine fictive des années 80 où le trafic de drogue s'est exporté vers le monde entier. Le joueur est la tête d'un empire de production de drogues et doit savoir gérer les gangs rivaux et les différents paramètres pour le faire fructifier.",
+    sortie: "18 mars 2021",
+    genre: "Gestion|City Builder|Stratégie|Simulation",
+    maturity: "0",
+    slug: "cartel tycoon",
   });
-  firebase.firestore().collection("series").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "The Staircase",
+    title: "Just Die Already",
     description:
-      "In 2001 novelist Michael Peterson's wife died, and he claimed she perished after falling down stairs at their home. The medical examiner, however, determined that she had been beaten with a weapon",
-    genre: "crime",
-    maturity: "18",
-    slug: "the-staircase",
+      "L'équipe à l'origine de Goat Simulator revient avec un nouveau jeu bac à sable, jouable en solo ou jusqu'à quatre en ligne : Just Die Already. Mécontents de leurs conditions de vie, les 'vieux' décident de semer le chaos dans la ville. Vous incarnez l'un d'eux, tout juste viré de sa maison de retraite. A vous de trouver tous les moyens possibles de vous venger, dans un environnement regorgeant d'éléments intéractifs et de passages secrets à exploiter.",
+    sortie: "20 mai 2021",
+    genre: "Sandbox",
+    maturity: "0",
+    slug: "just die already",
   });
 
   // Feel-good
-  firebase.firestore().collection("series").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Good Will Hunting",
+    title: "Siege Survival: Gloria Victis",
     description:
-      "Will Hunting, a genius in mathematics, solves all the difficult mathematical problems. When he faces an emotional crisis, he takes help from psychiatrist Dr Sean Maguireto, who helps him recover.",
-    genre: "feel-good",
-    maturity: "12",
-    slug: "good-will-hunting",
+      "En stratégie et survie, Siege Survival : Gloria Victis vous invite à gérer votre campement, trouver des ressources, en fabriquer de nouvelles et repousser les envahisseurs. Les mécaniques de jeu rappellent beaucoup This War of Mine, mais portées à la période médiévale.Will Hunting, a genius in mathematics, solves all the difficult mathematical problems. When he faces an emotional crisis, he takes help from psychiatrist Dr Sean Maguireto, who helps him recover.",
+    sortie: "18 mai 2021",
+    genre: "Gestion",
+    maturity: "18",
+    slug: "siege survival: gloria victis",
   });
-  firebase.firestore().collection("series").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Forrest Gump",
+    title: "King of Seas",
     description:
-      "Forrest Gump, a man with a low IQ, joins the army for service where he meets Dan and Bubba. However, he cannot stop thinking about his childhood sweetheart Jenny Curran, whose life is messed up.",
-    genre: "feel-good",
-    maturity: "12",
-    slug: "forrest-gump",
+      "King of Seas est un Action-RPG dans l'univers de la piraterie. Pour devenir le roi des pirates et venger votre père, vous devrez affronter d'autres navires, découvrir des coffres cachés et des îles perdues dans ce monde généré de manière procédural.",
+    sortie: "25 mai 2021",
+    genre: "Action|RPG",
+    maturity: "0",
+    slug: "king of seas",
   });
-  firebase.firestore().collection("series").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Juno",
+    title: "Tour de France 2021",
     description:
-      "Social misfit Juno protects herself with a caustic wit, but her unplanned pregnancy has the teen getting more involved in the lives of her baby's adoptive parents than she expected.",
-    genre: "feel-good",
-    maturity: "12",
-    slug: "juno",
+      "Dans Tour De France 2021, vous pouvez une fois encore vivre la plus grande course cycliste du monde et de nombreuses autres épreuves. La nouvelle version de ce simulateur de course à vélo accueille, entre autre, un nouveau système d'objectifs, une météo plus réaliste ainsi que de nouvelles licences.",
+    sortie: "03 juin 2021",
+    genre: "Sport",
+    maturity: "3",
+    slug: "tour de france 2021",
   });
-  firebase.firestore().collection("series").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Midnight In Paris",
+    title: "Dungeons and Dragons: Dark Alliance",
     description:
-      "Gil arrives with his fiancee and her family in Paris for a vacation, even as he tries to finish his debut novel. He is beguiled by the city, which takes him to a time past, away from his fiancee.",
-    genre: "feel-good",
-    maturity: "12",
-    slug: "midnight-in-paris",
+      "Donjons & Dragons : Dark Alliance est un jeu développé par Tuque Games et édité Wizards of the Coast. Hack'n'Slash coopératif jusqu'à quatre joueurs, le titre prend place dans la région glacière d'Icewind Dale.",
+    sortie: "22 juin 2021",
+    genre: "Action|Hack'n slash",
+    maturity: "0",
+    slug: "dungeons and dragons: dark alliance",
   });
-  firebase.firestore().collection("series").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "School of Rock",
+    title: "Knockout City ",
     description:
-      "Dewey Finn, an amateur rock enthusiast, slyly takes up his friend's substitute teacher's job. Bearing no qualifications for it, he instead starts training the students to form a band.",
-    genre: "feel-good",
-    maturity: "12",
-    slug: "school-of-rock",
+      "Knockout City est un jeu développé par Velan Studios et Electronic Arts. Le titre prend place dans une ville du futur aux allures cartoonesque. Seul ou en équipe, les joueurs devront conquérir la cité à travers une balle au prisonnier revisitée.",
+    sortie: "21 mai 2021",
+    genre: "Action|Sport",
+    maturity: "0",
+    slug: "knockout city",
   });
 
   /* Films
       ============================================ */
   // Drama
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "The Prestige",
+    title: "Saints Row: The Third Remastered",
     description:
-      "Two friends and fellow magicians become bitter enemies after a sudden tragedy. As they devote themselves to this rivalry, they make sacrifices that bring them fame but with terrible consequences.",
-    genre: "drama",
-    maturity: "15",
-    slug: "the-prestige",
+      "Saints Row 3, jeu d'action en monde ouvert, permet au joueur de prendre part à des affrontements entre différents gangs. Vous devrez vous forger une réputation pour vous faire respecter dans votre quartier.",
+    sortie: "15 nov. 2011",
+    genre: "Action|Aventure|Open World",
+    maturity: "18",
+    slug: "saints row: the third remastered",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Fight Club",
+    title: "Little Nightmares II",
     description:
-      "Discontented with his capitalistic lifestyle, a white-collared insomniac forms an underground fight club with Tyler, a careless soap salesman. The project soon spirals down into something sinister.",
-    genre: "drama",
-    maturity: "15",
-    slug: "fight-club",
+      "Little Nightmares 2 est la suite des aventures de la fillette Six. Cette fois, le cadre de cette histoire terrifiante se déroule dans une école. Mais cette fois elle ne sera pas seule, elle trouvera un compagnon d'infortune qui lui cache sa tête derrière un sac en papier.",
+    sortie: "11 févr. 2021",
+    genre: "Aventure|Réflexion|Puzzle-Game|Plate-Forme",
+    maturity: "16",
+    slug: "little nightmares II",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Kings Speech",
+    title: "Maneater",
     description:
-      "King George VI tries to overcome his stammering problem with the help of speech therapist Lionel Logue and makes himself worthy enough to lead his country through World War II.",
-    genre: "drama",
-    maturity: "15",
-    slug: "kings-speech",
+      "Maneater est un jeu en open world développé par Tripwire Interactive. Ce dernier va nous placer dans la peau d'un requin et nous emmener dans les différentes eaux du monde entier. Prédateurs, assaillants ou simples baigneurs, à vous de choisir qui sera votre prochain repas.",
+    sortie: "22 mai 2020",
+    genre: "Open World",
+    maturity: "18",
+    slug: "maneater",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "The Revenant",
+    title: "MechWarrior 5: Mercenaries",
     description:
-      "Hugh Glass, a legendary frontiersman, is severely injured in a bear attack and is abandoned by his hunting crew. He uses his skills to survive and take revenge on his companion, who betrayed him.",
-    genre: "drama",
-    maturity: "15",
-    slug: "the-revenant",
+      "MechWarrior 5 : Mercenaries est un FPS dans lequel nous sommes transportés vers le futur, aux alentours de l'an 3000. A cette époque, les BattleMech sont rois sur le terrain de la guerre et dominent les champs de bataille via une formidable puissance de feu. A vous d'écraser vos ennemis et de tout faire exploser sur votre passage !",
+    sortie: "10 déc. 2019",
+    genre: "Action|FPS",
+    maturity: "0",
+    slug: "mechWarrior 5: mercenaries",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "The Social Network",
+    title: "Skul: The Hero Slayer",
     description:
-      "Mark Zuckerberg creates a social networking site, Facebook, with the help of his friend Eduardo Saverin. But soon, a string of lies tears their relationship apart even as Facebook connects people.",
-    genre: "drama",
-    maturity: "12",
-    slug: "the-social-network",
+      "L'attaque du château du Roi Démon par la race humaine n'est pas nouvelle et s'est déjà produite de nombreuses fois par le passé. Mais cette fois-ci, les Aventuriers ont décidé de s'associer à l'armée impériale et au 'Héros de Caerleon' pour mener une attaque éclair dans l'espoir d'éliminer les Démons une fois pour toutes. Ils attaquèrent la forteresse des Démons en nombre écrasant et réussirent à la détruire totalement. Tous les démons du château ont été faits prisonniers, à l'exception d'un seul squelette nommé Skul.",
+    sortie: "19 févr. 2020",
+    genre: "Roguelike|Plate-Forme",
+    maturity: "0",
+    slug: "skul: the hero slayer",
   });
 
   // Suspense
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Shutter Island",
+    title: "Hitman 3 ",
     description:
-      "Teddy Daniels and Chuck Aule, two US marshals, are sent to an asylum on a remote island in order to investigate the disappearance of a patient, where Teddy uncovers a shocking truth about the place.",
-    genre: "suspense",
-    maturity: "15",
-    slug: "shutter-island",
+      "Hitman 3 est un jeu d'infiltration dans lequel vous incarnez l'agent 47. Dans ce troisième épisode de la nouvelle trilogie lancée en 2017, six lieux sont disponibles au lancement, mais il est possible de transférer les anciennes missions des deux premiers volets.",
+    sortie: "20 janv. 2021",
+    genre: "Action|Infiltration",
+    maturity: "18",
+    slug: "hitman 3 ",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Gone Girl",
+    title: "First Class Trouble",
     description:
-      "Nick Dunne discovers that the entire media focus has shifted on him when his wife Amy Dunne disappears on the day of their fifth wedding anniversary.",
-    genre: "suspense",
-    maturity: "15",
-    slug: "gone-girl",
+      "First Class Trouble est un party-game se déroulant dans un vaisseau spatial. Jeu de déduction sociale, les joueurs doivent découvrir l'identité des humanoïdes envoyés par une I.A rebelle pour les éliminer. A la manière d'un loup garou de thiercelieux, des imposteurs se cachent parmi les joueurs.",
+    sortie: "08 avr. 2021",
+    genre: "Party-Game|Autres|Survie",
+    maturity: "0",
+    slug: "first class trouble",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Prisoners",
+    title: "Dying Light 2 Stay Human",
     description:
-      "When the police take time to find Keller Dover's daughter and her friend, he decides to go on a search himself. His desperation leads him closer to finding the truth and also jeopardises his own life.",
-    genre: "suspense",
-    maturity: "15",
-    slug: "prisoners",
+      "Dying Light 2 est un Survival-Horror dans lequel le joueur doit survivre dans un environnement peuplé de zombies. Dans ce nouvel opus, l'enjeu sera de contrôler notamment des réserves d'eau et de nourriture afin de maîtriser une cité de survivants. Les choix du joueur ont ainsi une importance capitale dans le déroulement du scénario.",
+    sortie: "07 déc. 2021",
+    genre: "Action|FPS|Survival-Horror",
+    maturity: "18",
+    slug: "dying light 2 stay human",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Seven",
+    title: "It Takes Two",
     description:
-      "A serial killer begins murdering people according to the seven deadly sins. Two detectives, one new to the city and the other about to retire, are tasked with apprehending the criminal.",
-    genre: "suspense",
-    maturity: "15",
-    slug: "seven",
+      "It Takes Two est un jeu de plateforme, d'action et de coopération. Au coeur d'une famille qui se déchire, vous incarnez les deux poupées qui prennent vie, représentant les parents qui vont devoir passer des épreuves dans l'imaginaire de leur fille.",
+    sortie: "26 mars 2021",
+    genre: "Aventure",
+    maturity: "0",
+    slug: "it takes two",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Zodiac",
+    title: "Endzone - A World Apart",
     description:
-      "Robert Graysmith, a cartoonist by profession, finds himself obsessively thinking about the Zodiac killer. He uses his puzzle-solving abilities to get closer to revealing the identity of the killer.",
-    genre: "suspense",
-    maturity: "15",
-    slug: "zodiac",
+      "Endzone est un jeu développé par Gently Mad Studio et édité par Assemble Entertainment. Le jeu se déroule dans un univers post-apocalyptique, après un désastre nucléair. Le joueur va devoir rebâtir la civilisation avec un groupe restreint de personnes, tout en gérant les catastrophes naturelles de la région.",
+    sortie: "02 avr. 2020",
+    genre: "Gestion|CityBuilder|Stratégie",
+    maturity: "0",
+    slug: "endzone - a world apart",
   });
 
   // Children
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Hotel Transylvania",
+    title: "Total War: Remastered",
     description:
-      "Dracula, who owns a high-end resort for monsters, attempts to keep his daughter from falling in love with Jonathan, a human.",
-    genre: "children",
+      "Revivez l'expérience originale de Total War : Rome, dans un nouveau jeu complètement remis au goût du jour. Total War : Rome Remastered contient les extensions Alexander et Barbarian Invasion. Il n'est pas donné à tout le monde de conquérir l'Empire Romain une deuxième fois.",
+    sortie: "29 avr. 2021",
+    genre: "Stratégie",
     maturity: "0",
-    slug: "hotel-transylvania",
+    slug: "total war: remastered",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Despicable Me",
+    title: "Scarlet Nexus",
     description:
-      "Gru, a criminal mastermind, adopts three orphans as pawns to carry out the biggest heist in history. His life takes an unexpected turn when the little girls see him as their potential father.",
-    genre: "children",
+      "Scarlet Nexus est un RPG dans lequel vous jouez Yuito Sumeragi, un nouveau membre de l'OSF. Le jeune homme veut utiliser ses dons de psycho-kinésie afin de devenir un psionique d'élite, comme celui qui l'avait sauvé par le passé.",
+    sortie: "25 juin 2021",
+    genre: "RPG",
     maturity: "0",
-    slug: "despicable-me",
+    slug: "scarlet nexus",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Frozen",
+    title: "Totally Reliable Delivery Service",
     description:
-      "Anna sets out on a journey with an iceman, Kristoff, and his reindeer, Sven, in order to find her sister, Elsa, who has the power to convert any object or person into ice.",
-    genre: "children",
+      "Totally Reliable Delivery Service est un jeu d'action édité par tinyBuild. A vous les joies de repousser les limites de la physique du jeu et de faire n'importe quoi avec les ragdolls. Faites juste en sorte d'apporter les livraisons aux bons endroits et en bon état.",
+    sortie: "01 avr. 2020",
+    genre: "Action",
     maturity: "0",
-    slug: "frozen",
+    slug: "totally reliable delivery service",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Spirited Away",
+    title: "The Universim",
     description:
-      "In this animated feature by noted Japanese director Hayao Miyazaki, 10-year-old Chihiro (Rumi Hiiragi) and her parents (Takashi Naitô, Yasuko Sawaguchi) stumble upon a seemingly abandoned amusement park.",
-    genre: "children",
+      "The Universim vise à faire revivre les jours de gloire du genre God Game. A partir de rien, le but du jeu est de développer son empire galactique depuis sa planète. Dans un monde dynamique, il vous faudra développer la vie sur la planète, et l’entretenir pour que celle-ci s’y développe, et que la civilisation s’y installe. Soutenu par un moteur de jeu interne au studio, intégré à Unity 5, le jeu ne proposera jamais deux fois les mêmes planètes. Désastres, invasions aliens et autres évènements viendront mettre le joueur à l’épreuve.",
+    sortie: "15 juin 2021",
+    genre: "Gestion|Simulation",
     maturity: "0",
-    slug: "spirited-away",
+    slug: "the universim",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Up",
+    title: "Before We Leave",
     description:
       "Carl, an old widower, goes off on an adventure in his flying house in search of Paradise Falls, his wife's dream destination.",
-    genre: "children",
+    sortie: "08 mai 2020",
+    genre: "Gestion|City Builder",
     maturity: "0",
-    slug: "up",
+    slug: "Before We Leave",
   });
 
   // Thriller
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Joker",
+    title: "Blue Fire",
     description:
-      "Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City.",
-    genre: "thriller",
-    maturity: "15",
-    slug: "joker",
+      "Blue Fire est un jeu de plateforme en 3D réalisé avec dans le thème de la fantasy. Le titre se déroule dans le royaume de Penumbra, et offre différentes zones à explorer dont des temples remplis de pièges à découvrir au fil des quêtes. D'imposants ennemis se mettront également au travers de votre route pendant votre exploration.",
+    sortie: "04 févr. 2021",
+    genre: "Action|Aventure|Plate-Forme",
+    maturity: "7",
+    slug: "blue fire",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "A Quiet Place",
+    title: "Hood: Outlaws & Legends",
     description:
-      "The Abbott family must now face the terrors of the outside world as they fight for survival in silence. Forced to venture into the unknown, they realize that the creatures that hunt by sound are not the only threats that lurk beyond the sand path.",
-    genre: "thriller",
-    maturity: "15",
-    slug: "a-quiet-place",
+      "Hood : Outlaws & Legends est un jeu d'action multijoueur dans lequel deux équipes s'affrontent pour exécuter le braquage parfait dans des environnements patrouillés par des gardes contrôlés par l'IA. Dans cette ambiance médiévale, vous pouvez choisir de vous infiltrer discrètement ou de foncer tête baissée pour récupérer votre objectif avant vos adversaires.",
+    sortie: "10 mai 2021",
+    genre: "Action",
+    maturity: "0",
+    slug: "hood: outlaws & legends",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Black Swan",
+    title: "Paradise Lost",
     description:
-      "Nina, a ballerina, gets the chance to play the White Swan, Princess Odette. But she finds herself slipping into madness when Thomas, the artistic director, decides that Lily might fit the role better.",
-    genre: "thriller",
-    maturity: "15",
-    slug: "black-swan",
+      "Pardise Lost est un jeu d'aventure narratif qui vous met dans la peau d'un jeune garçon, explorant un monde post-apocalyptique où la Seconde Guerre mondiale n'a jamais pris fin. Seul et livré à lui même, il découvrira un ancien bunker nazi qui sera le point de départ de son dangereux périple.",
+    sortie: "24 mars 2021",
+    genre: "Aventure",
+    maturity: "0",
+    slug: "paradise lost",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Nightcrawler",
+    title: "MXGP 2020 - The Official Motocross Videogame",
     description:
-      "Louis Bloom, a petty thief, realises that he can make money by capturing photographs of criminal activities and starts resorting to extreme tactics to get them.",
-    genre: "thriller",
-    maturity: "15",
-    slug: "nightcrawler",
+      "Nouvel épisode de la série de jeu sous licence officielle, MXGP2020 revient sur nos consoles et PC avec de nouvelles fonctionnalités. Editeur de cartes, création d'équipes, serveurs retravaillés. Le nouveau titre de Milestone met à disposition plus de 10 000 objets parmi 100 marques officielles.",
+    sortie: "16 déc. 2020",
+    genre: "Course|Sport",
+    maturity: "0",
+    slug: "MXGP 2020 - the official motocross videogame",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "The Silence of The Lambs",
+    title: "Overcooked! All You Can Eat",
     description:
-      "Clarice Starling, an FBI agent, seeks help from Hannibal Lecter, a psychopathic serial killer and former psychiatrist, in order to apprehend another serial killer who has been claiming female victims.",
-    genre: "thriller",
-    maturity: "15",
-    slug: "the-silence-of-the-lambs",
+      "Overcooked! All You Can Eat est un jeu d'action en cuisine. Le jeu comporte les niveaux d'Overcooked!, Overcooked! 2, leurs DLC. Le tout sera composé de 200 niveaux, dont 7 inédits ainsi que de 3 nouveaux chefs, et une réédition en 4k.",
+    sortie: "10 nov. 2020",
+    genre: "Action|Party-Game",
+    maturity: "0",
+    slug: "overcooked! all you can eat",
   });
 
   // Romance
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "A Star Is Born",
+    title: "Predator: Hunting Grounds",
     description:
-      "After falling in love with struggling artist Ally, Jackson, a musician, coaxes her to follow her dreams, while he battles with alcoholism and his personal demons.",
-    genre: "romance",
+      "Predator : Hunting Grounds est un jeu d'action multijoueur qui reprend l'univers des films. La grande particularité du titre est le gameplay qui est asymétrique. Des joueurs incarnent des soldats humains, tandis qu'un autre a le malin plaisir de jouer le Predator.",
+    sortie: "24 avr. 2020",
+    genre: "Action",
     maturity: "15",
-    slug: "a-star-is-born",
+    slug: "predator: hunting grounds",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Blue Valentine",
+    title: "Yakuza 6: The Song of Life",
     description:
-      "Dean and Cynthia are married with a daughter and their marriage is about to fall apart. Both come from dysfunctional families and struggle to make sense of their relationship.",
-    genre: "romance",
-    maturity: "15",
-    slug: "blue-valentine",
+      "Yakuza 6 est un jeu de type aventure en monde ouvert. Après les événements du 5e volet, on retrouve Kazuma, qui après avoir apprit qu'Haruka eu été gravement blessé, va tenter de l'aider et de trouver des réponses sur son agression. Pour cela, il va se rendre à Hiroshima, dernier endroit dans lequel s'est rendu la jeune fille. En plus de cela, des problèmes au sein du clan Tojo refont surface...",
+    sortie: "17 avr. 2018",
+    genre: "Action|Aventure",
+    maturity: "18",
+    slug: "yakuza 6: the song of life",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "La La Land",
+    title: "Breathedge",
     description:
-      "Sebastian (Ryan Gosling) and Mia (Emma Stone) are drawn together by their common desire to do what they love. But as success mounts they are faced with decisions that begin...",
-    genre: "romance",
-    maturity: "15",
-    slug: "la-la-land",
+      "Breathedge est un jeu d'aventure et d'action. Incarnez un homme simple et sans besoins particuliers essayant de survivre dans les profondeurs de l'espace. Explorez, construisez et défendez-vous avec un poulet. Le jeu est en accès anticipé depuis le 13 septembre 2018.",
+    sortie: "25 févr. 2021",
+    genre: "Action|Aventure",
+    maturity: "0",
+    slug: "breathedge",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "The Notebook",
+    title: "The Wild at Heart",
     description:
-      "Duke reads the story of Allie and Noah, two lovers who were separated by fate, to Ms Hamilton, an old woman who suffers from Alzheimer's, on a daily basis out of his notebook.",
-    genre: "romance",
-    maturity: "15",
-    slug: "the-notebook",
+      "Dans le royaume caché et mystérieux de The Wild at Heart, retrouvez deux enfants fuyant leur quotidien difficile. Mais rien n'est simple dans les Boissombres, et il vous faudra développer votre horde de Farfelins afin de combattre les ennemis sur vos routes.",
+    sortie: "20 mai 2021",
+    genre: "Aventure",
+    maturity: "0",
+    slug: "the wild at heart",
   });
-  firebase.firestore().collection("films").add({
+  firebase.firestore().collection("jeux").add({
     id: getUUID(),
-    title: "Titanic",
+    title: "Backbone",
     description:
-      "Seventeen-year-old Rose hails from an aristocratic family and is set to be married. When she boards the Titanic, she meets Jack Dawson, an artist, and falls in love with him.",
-    genre: "romance",
-    maturity: "15",
-    slug: "titanic",
+      "Backbone est un jeu d'aventure et de détective inspiré des films noirs. Howard Lotor, raton laveur et détective privé, explore un Vancouver dystopique en pixel-art à la recherche d'indices et de preuves.",
+    sortie: "08 juin 2021",
+    genre: "Action|RPG",
+    maturity: "0",
+    slug: "backbone",
   });
 }
